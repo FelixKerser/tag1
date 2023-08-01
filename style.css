@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+:root{
+    --main-black-color: #252525;
+    --main-blue-color:#2359C0;
+    --main-yellow-color:#FDC13D;
+    --global--real-padding:90%;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    color:var(--main-black-color);
+}
+
+a{
+    color:var(--main-black-color);
+    text-decoration: none;
+}
+
+.header-pc__wrapper{
+    width:var(--global--real-padding);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top:25px;
+    align-items: flex-start;
+}
+
+.header-fsection{
+    display:flex;
+}
+
+.header-ssection{
+    display:flex;
+    align-items: center;
+}
+
+.hss-login-reg-btns{
+    margin-left:75px;
+}
+
+.btn{
+    padding:16px 38px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.reg-btn{
+    margin-left:25px;
+    background-color:var(--main-blue-color);
+    color:white;
+}
+
+.hfs-menu-per{
+    display:flex;
+    list-style-type: none;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
+.hfs-menu-per li{
+    padding-right:30px;
+    vertical-align: middle;
+}
+
+.hfs-menu-per li:last-child{
+    padding-right:0px;
+}
+
+.hfs-menu-per li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color:var(--main-black-color);
+}
+
+.hss-search input{
+    border-radius: 25px;
+    border:3px solid var(--main-blue-color);
+    padding:15px 22px;
+    width:450px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
