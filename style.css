@@ -278,3 +278,120 @@ a{
 .mbt-ssection img{
     max-width:750px;
 }
+
+.main-block-cztery__wrapper{
+    max-width:var(--global--real-padding);
+    margin:auto;
+    padding:100px 0;
+}
+
+.main-block-cztery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mbc-center-text{
+    text-align: center;
+    font-size:54px;
+    font-weight: 600;
+    font-family: 'Inter';
+    padding-bottom:80px;
+}
+
+.mbc-list-cat{
+    list-style-type: none;
+}
+
+.mbc-list-cat li{
+    font-family: 'Inter';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom:35px;
+}
+
+.mbc-list-cat li:last-child{
+    padding-bottom:0;
+}
+
+.mbc-list-hrefs{
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    justify-content: center;
+    width: 420px;
+    justify-content: flex-start;
+}
+
+.mbclh__el{
+    border:2px solid var(--main-yellow-color);
+    border-radius: 38px;
+    padding: 13px 34px;
+    display: inline-flex;
+    margin-bottom:25px;
+    margin-right:20px;
+    height: fit-content;
+    width: fit-content;
+    text-decoration: none;
+    color:var(--main-blue-color);
+    font-size: 22px;
+}
+
+.main-block-piec__wrapper{
+    max-width:var(--global--real-padding);
+    margin:auto;
+    padding:100px 0;
+}
+
+.main-block-piec{
+    display:flex;
+}
+
+.mbp-big-text{
+    font-size:54px;
+    font-family: 'Inter';
+    font-weight: 600;
+    padding-bottom:35px;
+}
+
+.mbp-normal-text{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom:45px;
+}
+
+.mbp-przyczyna__el{
+    display: flex;
+    margin-bottom:34px;
+    align-items: center;
+}
+
+.mbpp-p{
+    margin-left:20px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.mbp-przyczyny__wrapper{
+    margin-bottom:60px;
+}
+
+.mbp-button{
+    background-color:var(--main-yellow-color);
+    font-size: 22px;
+    font-family: 'Inter';
+    color:white;
+    width: 144px;
+    display: flex;
+    justify-content: center;
+}
+
+.mbp-ssection img{
+    margin-right: -65px;
+    max-height: 80vh;
+    margin-top: -120px;
+}
+
